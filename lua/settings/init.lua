@@ -21,5 +21,4 @@ vim.opt.cursorline = true
 vim.opt.hidden = true
 
 vim.opt.autowrite = true
-vim.opt.clipboard = unnamedplus
 vim.opt.number = true

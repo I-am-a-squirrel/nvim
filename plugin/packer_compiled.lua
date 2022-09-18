@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Dart-Code"] = {
+    loaded = true,
+    path = "/home/alexander/.local/share/nvim/site/pack/packer/start/Dart-Code",
+    url = "https://github.com/Dart-Code/Dart-Code"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/alexander/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -119,6 +124,21 @@ _G.packer_plugins = {
     path = "/home/alexander/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "/home/alexander/.local/share/nvim/site/pack/packer/start/nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
+  },
+  ["nvim-dap-ui"] = {
+    loaded = true,
+    path = "/home/alexander/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
+    url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/alexander/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/alexander/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -128,6 +148,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/alexander/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["symbols-outline.nvim"] = {
+    loaded = true,
+    path = "/home/alexander/.local/share/nvim/site/pack/packer/start/symbols-outline.nvim",
+    url = "https://github.com/simrat39/symbols-outline.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/alexander/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   }
 }
 
