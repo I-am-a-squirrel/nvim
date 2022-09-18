@@ -1,15 +1,15 @@
 require'dap'.adapters.dart = {
      type = "executable",
-     command = "/home/alexander/.local/share/nvim/site/pack/packer/start/Dart-Code/out/dist/debug.js",
-     args = {"flutter"}
+     command = "node",
+     args = {"/home/alexander/.local/share/nvim/site/pack/packer/start/Dart-Code/out/dist/debug.js", "flutter"}
 }
 
 require("dap").configurations.dart = {{
      type = "dart",
      request = "launch",
      name = "Launch flutter",
-     dartSdkPath = "/home/alexander/flutter-sdk/flutter",
-     flutterSdkPath = "/home/alexander/flutter-sdk/flutter",
+     dartSdkPath = os.getenv('HOME').."/flutter-sdk/flutter",
+     flutterSdkPath = os.getenv('HOME').."/flutter-sdk/flutter",
      program = "${workspaceFolder}/lib/main.dart",
      cwd = "${workspaceFolder}",
      toolArgs = {"-d", "linux"},
